@@ -1,0 +1,313 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+li:hover {
+  background-color: black;
+  color: white;
+  display: inline;
+  float: left;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: wheat;
+}
+
+header {
+  background-image: url(banner_minecraft.png);
+  background-color: #000000;
+  text-align: center;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  width: 100%;
+  height: 500px;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+
+image {
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  height: 80%;
+  float: none;
+}
+
+nav {
+  /* H float: left;
+  width: 30%; */
+  padding: 1vw;
+}
+
+nav ul {
+  display: flex;
+  /*H*/
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  background-color: darkgreen;
+  border: 1px solid #555;
+  text-align: center;
+  border: 1px solid black;
+
+}
+
+input {
+  background-color: wheat;
+}
+
+nav li {
+  border: 1px solid rgb(61, 60, 60);
+  padding: 8px;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  background-color: black;
+}
+
+article {
+  /*   float: left;
+  width: 80%; */
+  padding: 20px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section {
+  /* H display: flex; */
+}
+
+nav ul li {
+  border: 1px solid wheat;
+  width: 20%;
+  /* H */
+  text-align: center;
+  display: inline-block;
+}
+
+footer {
+  background-color: #4e8549;
+  padding: 10px;
+  text-align: center;
+  color: rgb(0, 255, 136);
+}
+
+a:hover {
+  display: block;
+  padding: auto;
+  background-color: black;
+}
+.
+
+table {
+  width: 50;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table,
+td,
+th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 65%;
+  padding: 10px;
+}
+
+th {
+  background-color: wheat;
+  text-align: left;
+}
+
+
+.column {
+  width: 33%;
+  margin: 0.5%;
+}
+
+.imatge {
+  width: 33%;
+}
+
+.segona_columna {
+  width: 32%;
+  margin: 0.5%;
+}
+
+.imatge2 {
+  width: 33%;
+  margin: 0.5%;
+}
+
+.imatge3 {
+  width: 33%;
+  margin: 0.5%;
+}
+
+.imatge4 {
+  width: 33%;
+  margin: 0.5%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  float: left;
+  display: table;
+}
+
+@media only screen and (min-width: 600px) {
+
+  nav,
+  article {
+    width: 100%;
+    height: auto;
+  }
+
+  body {
+    background-color: rgb(182, 138, 57);
+
+  }
+
+  .fila {
+    border-color: darkred;
+    background-color: red;
+
+  }
+
+  .columna {
+    width: 100%;
+    background-color: wheat;
+  }
+
+
+}
+
+header {
+  text-align: center;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  width: 100%;
+  height: 200px;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+
+.col-s-1 {
+  width: 8.33%;
+}
+
+.col-s-2 {
+  width: 16.66%;
+}
+
+.col-s-3 {
+  width: 25%;
+}
+
+.col-s-4 {
+  width: 33.33%;
+}
+
+.col-s-5 {
+  width: 41.66%;
+}
+
+.col-s-6 {
+  width: 50%;
+}
+
+.col-s-7 {
+  width: 58.33%;
+}
+
+.col-s-8 {
+  width: 66.66%;
+}
+
+.col-s-9 {
+  width: 75%;
+}
+
+.col-s-10 {
+  width: 83.33%;
+}
+
+.col-s-11 {
+  width: 91.66%;
+}
+
+.col-s-12 {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+}
